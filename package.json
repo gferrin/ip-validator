@@ -1,0 +1,28 @@
+{
+  "name": "ip-validator",
+  "version": "0.0.1",
+  "description": "Super simple IP Address validator for ipv4 & ipv6",
+  "main": "lib/validator.js",
+  "scripts": {
+    "prepublish": "coffee --output lib --compile src"
+  },
+  "author": "Gabriel Ferrin",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gferrin/ip-validator.git"
+  },
+  "keywords": [
+    "ipv4",
+    "ipv6",
+    "ip",
+    "validator",
+    "ip validator"
+  ],
+  "bugs": {
+    "url": "https://github.com/gferrin/ip-validator/issues"
+  },
+  "homepage": "https://github.com/gferrin/ip-validator"
+}
